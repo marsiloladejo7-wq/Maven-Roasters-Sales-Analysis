@@ -3,17 +3,17 @@
 An Excel project that aims to provide Maven Roasters, a fictitious coffee shop operating across three locations in New York City, with actionable insights. These insights are intended to inform strategic decisions and optimize Maven Roasters' overall operational effectiveness
 
 ## Table of Content
-- [Project Overview](https://github.com/OchukoEjemudaro/Maven-Roasters-Sales-Analysis#project-overview)
-- [Project Scope](https://github.com/OchukoEjemudaro/Maven-Roasters-Sales-Analysis#project-scope)
-- [Buisness Objective](https://github.com/OchukoEjemudaro/Maven-Roasters-Sales-Analysis#business-objective)
-- [Document Purpose](https://github.com/OchukoEjemudaro/Maven-Roasters-Sales-Analysis#document-purpose)
-- [Use Case](https://github.com/OchukoEjemudaro/Maven-Roasters-Sales-Analysis#use-case)
-- [Data Source](https://github.com/OchukoEjemudaro/Maven-Roasters-Sales-Analysis#data-source)
-- [Data Cleaning and Processing](https://github.com/OchukoEjemudaro/Maven-Roasters-Sales-Analysis#data-cleaning-and-processing)
-- [Data Analysis](https://github.com/OchukoEjemudaro/Maven-Roasters-Sales-Analysis#data-analysis-and-insight)
-- [Data Visualization](https://github.com/OchukoEjemudaro/Maven-Roasters-Sales-Analysis#data-visualization)
-- [Recommendation](https://github.com/OchukoEjemudaro/Maven-Roasters-Sales-Analysis#recommendation)
-- [Conclusion](https://github.com/OchukoEjemudaro/Maven-Roasters-Sales-Analysis#conclusion)
+- [Project Overview](https://github.com/marsiloladejo7-wq/Maven-Roasters-Sales-Analysis#project-overview)
+- [Project Scope](https://github.com/marsiloladejo7-wq/Maven-Roasters-Sales-Analysis#project-scope)
+- [Buisness Objective](https://github.com/marsiloladejo7-wq/Maven-Roasters-Sales-Analysis#business-objective)
+- [Document Purpose](https://github.com/marsiloladejo7-wq/Maven-Roasters-Sales-Analysis#document-purpose)
+- [Use Case](https://github.com/marsiloladejo7-wq/Maven-Roasters-Sales-Analysis#use-case)
+- [Data Source](https://github.com/marsiloladejo7-wq/Maven-Roasters-Sales-Analysis#data-source)
+- [Data Cleaning and Processing](https://github.com/marsiloladejo7-wq/Maven-Roasters-Sales-Analysis#data-cleaning-and-processing)
+- [Data Analysis](https://github.com/marsiloladejo7-wq/Maven-Roasters-Sales-Analysis#data-analysis-and-insight)
+- [Data Visualization](https://github.com/marsiloladejo7-wq/Maven-Roasters-Sales-Analysis#data-visualization)
+- [Recommendation](https://github.com/marsiloladejo7-wq/Maven-Roasters-Sales-Analysis#recommendation)
+- [Conclusion](https://github.com/marsiloladejo7-wq/Maven-Roasters-Sales-Analysis#conclusion)
 
 ## Project Overview
 
@@ -89,7 +89,7 @@ aggregate it on a monthly basis, and provide a clear and detailed summary of the
 
 This measure was then incorporated into the visualization process using a line chart. Line charts serve to visually represent and analyze the dynamic patterns and fluctuations in sales data, offering a clearer and more insightful understanding of the temporal dynamics within the dataset.
 
-![](https://github.com/OchukoEjemudaro/Maven-Roasters-Sales-Analysis/blob/main/Revenue_Trends.png)
+![](https://github.com/marsiloladejo7-wq/Maven-Roasters-Sales-Analysis/blob/main/Revenue_Trends.png)
 
 From the above analysis,
 - The total revenue shows a consistent increase from January to June, indicating a positive trend in sales over the six-month period.
@@ -114,7 +114,7 @@ A comprehensive approach was taken to create a measure in Excel Power Pivot that
 
 Then, the ‘% changes in revenue’ measure was subsequently employed in conjunction with a visualization tool, a waterfall chart
 
-![](https://github.com/OchukoEjemudaro/Maven-Roasters-Sales-Analysis/blob/main/Monthly_Revenue.png)
+![](https://github.com/marsiloladejo7-wq/Maven-Roasters-Sales-Analysis/blob/main/Monthly_Revenue.png)
 
 - The first notable observation is a decrease in revenue in February, signifying a 6.77% reduction compared to January. This decline could be due to various factors, such as seasonal trends or specific business conditions during that period.
 - March and April demonstrate substantial positive growth, with a 29.80% increase from February to March and a further 20.34% increase from March to April. These months may have witnessed successful initiatives or favorable market conditions contributing to revenue growth.
@@ -135,7 +135,7 @@ To answer the question, the analysis entailed the creation of a measure to calcu
 
 ```Total Revenue = SUMX(Maven_Data, Maven_Data[unit_price]*[transaction_qty])```
 
-![](https://github.com/OchukoEjemudaro/Maven-Roasters-Sales-Analysis/blob/main/Busiest_Week.png)
+![](https://github.com/marsiloladejo7-wq/Maven-Roasters-Sales-Analysis/blob/main/Busiest_Week.png)
 
 Based on the provided total revenue data for each day of the week, the busiest weekday in terms of revenue generated appears to be Monday. Monday has the highest total revenue among all weekdays, with $101,677. This indicates that Monday is the busiest day for the business in terms of sales.
 
@@ -149,7 +149,7 @@ Here are some potential insights into why Monday might be the busiest day.
 
 After the initial analysis, I extended the examination to determine if the busiest day is consistent across store locations or if it varies. Employing the same approach, a line chart was utilized to identify revenue trends for each day across different store locations. This visualization effectively highlighted the data, allowing for the identification of the busiest day in each location.
 
-![](https://github.com/OchukoEjemudaro/Maven-Roasters-Sales-Analysis/blob/main/Revenu_Across.png)
+![](https://github.com/marsiloladejo7-wq/Maven-Roasters-Sales-Analysis/blob/main/Revenu_Across.png)
 
 In analyzing the provided revenue data across store locations, the busiest weekday appears to vary across the different locations.
 
@@ -170,13 +170,13 @@ A comprehensive approach was taken to create a measure that calculate total quan
 ```Total Quantity Sold = SUM(Maven_Data[transaction_qty])```
 
 **Top 5 Selling Product**
-![](https://github.com/OchukoEjemudaro/Maven-Roasters-Sales-Analysis/blob/main/Top_5.png)
+![](https://github.com/marsiloladejo7-wq/Maven-Roasters-Sales-Analysis/blob/main/Top_5.png)
 
 - With the highest quantity sold (4708 units), Earl Grey Rg leading in quantity sold, this product holds a prominent position, suggesting it's a customer favorite and potentially a key revenue driver.
 - Dark Chocolate Lg, Latte, Morning Sunrise Chai Rg, and Peppermint Rg products have relatively high quantities sold, suggesting consistent demand across the board. These products, while not the top-sellers, maintain substantial quantities sold, indicating consistent popularity and contributing significantly to overall sales.
 
 **Least 5 Selling Product**
-![](https://github.com/OchukoEjemudaro/Maven-Roasters-Sales-Analysis/blob/main/Least_5.png)
+![](https://github.com/marsiloladejo7-wq/Maven-Roasters-Sales-Analysis/blob/main/Least_5.png)
 
 - With the lowest quantity sold (118 units), Dark chocolate stands out as the least performing product in terms of sales.
 - Jamacian Coffee River, Earl Grey, Guatemalan Sustainably Grown, and Spicy Eye Opener Chai products also exhibit lower quantities sold, indicating a lower level of demand compared to other items.
@@ -191,7 +191,7 @@ To identify the best-selling product by revenue in Excel Power Pivot, a dedicate
 
 ```Total Revenue = SUMX(Maven_Data, Maven_Data[unit_price]*[transaction_qty])```
 
-![](https://github.com/OchukoEjemudaro/Maven-Roasters-Sales-Analysis/blob/main/Top_Revenue.png)
+![](https://github.com/marsiloladejo7-wq/Maven-Roasters-Sales-Analysis/blob/main/Top_Revenue.png)
 
 - Sustainably Grown Organic Lg and Dark Chocolate Lg products stand out as the top revenue generators, with Sustainably Grown Organic Lg slightly leading in total revenue at $21,152.
 - Latte Rg, Cappuccino Lg, and Morning Sunrise Chai Lg, while not the top revenue contributors, these products still exhibit substantial revenue figures, indicating consistent popularity among customers.
@@ -200,7 +200,7 @@ To identify the best-selling product by revenue in Excel Power Pivot, a dedicate
 
 This data visualization was created using Microsoft Excel, each visual created displays information for each question in the business objective.
 
-![](https://github.com/OchukoEjemudaro/Maven-Roasters-Sales-Analysis/blob/main/Dashboard.png)
+![](https://github.com/marsiloladejo7-wq/Maven-Roasters-Sales-Analysis/blob/main/Dashboard.png)
 
 ## Recommendation
 	
@@ -224,7 +224,7 @@ Thank You For Reading.
 
 I’m interested in a Data Analyst role in an organization where I can showcase my skills, take more responsibilities, continue to learn, an organization that I can grow with, where my work will be highly beneficial to the organization.
 
-You can reach me on ochukoejemudaro@gmail.com or [Twitter](https://twitter.com/iamochuks/) or [LinkedIn](https://www.linkedin.com/in/ochukoejemudaro01/)
+You can reach me on marsiloladejo7@gmail.com
 
 THANK YOU
 
